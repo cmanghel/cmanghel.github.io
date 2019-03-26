@@ -2,9 +2,9 @@
 
 /* GLOBAL STYLES */
 body {
-  font-family: helvetica, arial, sans-serif;
   display: flex;
   flex-direction: column;
+  font-family: 'Open Sans', helvetica, arial,sans-serif;
   min-height: 100vh;
 }
 .content-container {
@@ -15,6 +15,12 @@ body {
 }
 a {
   color: #6397b5;
+}
+.bio-box h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans-serif;
 }
 h1 {
   margin-top: 0;
@@ -50,17 +56,17 @@ html {
   border-radius: 99px;
   box-sizing: border-box;
   color: #fff;
+  display: inline-block;
   font-family: helvetica, arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
-  display: inline-block;
+  width: 1.5em;
  }
  .social-link:hover{
    background-color: pink;
@@ -176,11 +182,11 @@ html {
   width: 33%;
 }
 .bio-box h3 {
-  color: #fff;
+  color: pink;
   font-size: 1.5em;
   margin: -40px 0 1em;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .bio-box img {
   width: 100%;
